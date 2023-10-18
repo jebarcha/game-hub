@@ -11,7 +11,7 @@ export interface Genre {
 }
 
 //const useGenres = () => useData<Genre>('/genres');
-const useGenres2 = () => ({ data: genres, isLoading: false, error: null });
+//const useGenres2 = () => ({ data: genres, isLoading: false, error: null });
 
 const useGenres = () =>
   useQuery({
